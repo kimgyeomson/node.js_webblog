@@ -1,25 +1,27 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+# Dependency directories
+node_modules/
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# Optional npm cache directory
+.npm/
 
-# Local History for Visual Studio Code
-.history/
+# Optional eslint cache
+.eslintcache
 
-# Built Visual Studio Code Extensions
-*.vsix
+# Optional REPL history
+.node_repl_history
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# Output of 'npm pack'
+*.tgz
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
-
+# dotenv environment variables file
 .env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
